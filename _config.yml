@@ -1,0 +1,6 @@
+title: My Blog
+description: My first Jekyll blog
+baseurl: "" # leave empty for personal blog
+url: "https://advaithmj.github.io"
+theme: minima
+
