@@ -1,6 +1,28 @@
-title: My Blog
-description: My first Jekyll blog
-baseurl: "" # leave empty for personal blog
+title: Advaith Menon John
+description: Engineering • Robotics • Data Analysis
+author:
+  name: Advaith Menon John
+  bio: Student | Developer 
+  location: Lafayette, California
+  
 url: "https://advaithmj.github.io"
-theme: minima
+baseurl: ""
 
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Navigation
+header_pages:
+  - projects.md
+  - blog.md
+  - about.md
+
+# Social links (add the ones you use)
+github_username: advaithmj
+# linkedin_username: yourlinkedin
+# twitter_username: yourtwitter
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
