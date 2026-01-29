@@ -47,7 +47,7 @@
   gap: 10px;
 }
 
-/* Navigation links with enhanced styling */
+/* Navigation links with enhanced styling - ALL LINKS SAME STYLE */
 .site-nav .page-link {
   position: relative;
   padding: 8px 16px;
@@ -55,10 +55,11 @@
   border-radius: 6px;
   font-weight: 500;
   transition: all 0.3s ease;
-  background: transparent;
+  background: transparent !important; /* Force transparent background */
+  color: inherit !important; /* Use default color */
 }
 
-/* Underline animation */
+/* Underline animation for ALL navigation links */
 .site-nav .page-link::after {
   content: '';
   position: absolute;
@@ -72,11 +73,11 @@
   border-radius: 2px;
 }
 
-/* Hover effects for navigation links */
+/* Hover effects for ALL navigation links */
 .site-nav .page-link:hover {
   transform: translateY(-2px);
   color: #2a7ae2 !important;
-  background-color: rgba(42, 122, 226, 0.05);
+  background-color: rgba(42, 122, 226, 0.05) !important;
 }
 
 .site-nav .page-link:hover::after {
@@ -85,7 +86,7 @@
 
 /* Active page styling */
 .site-nav .page-link.active {
-  background-color: rgba(42, 122, 226, 0.1);
+  background-color: rgba(42, 122, 226, 0.1) !important;
   color: #2a7ae2 !important;
 }
 
@@ -194,10 +195,6 @@
 /* Page content animations */
 .page-heading {
   animation: fadeInDown 0.6s ease-out;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 @keyframes fadeInDown {
@@ -219,16 +216,6 @@ a {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
-}
-
-/* Add pulse animation for important elements */
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
 }
 
 /* Wrapper animation */
@@ -265,11 +252,6 @@ html {
 
 .page-content h2:hover {
   border-bottom-color: #2a7ae2;
-}
-
-/* Add gradient background to main content on hover */
-.wrapper {
-  transition: background-color 0.3s ease;
 }
 
 /* Responsive design enhancements */
