@@ -15,14 +15,28 @@ layout: default
       <li class="post-item">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
+        
+        {%- if post.categories.size > 0 -%}
+          <div class="post-categories">
+            {%- for category in post.categories -%}
+              <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" class="category-tag">
+                {{ category }}
+              </a>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+        
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+        
+        {%- if post.excerpt -%}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         {%- endif -%}
+        
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
       </li>
       {%- endfor -%}
     </ul>
