@@ -19,10 +19,3 @@ header_pages:
 
 # Social links (add the ones you use)
 github_username: advaithmj
-# linkedin_username: yourlinkedin
-# twitter_username: yourtwitter
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
