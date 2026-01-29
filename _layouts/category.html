@@ -1,16 +1,13 @@
 ---
 layout: default
 ---
-
 <div class="category-page">
-  <h1 class="page-heading">Category: {{ page.category }}</h1>
-  
+  <h1 class="page-heading">Category: {{ page.category | capitalize }}</h1>
   <p class="category-description">
-    Showing all posts in <strong>{{ page.category }}</strong>
+    Showing all posts in <strong>{{ page.category | capitalize }}</strong>
   </p>
   
   <a href="{{ site.baseurl }}/" class="back-link">← Back to all posts</a>
-
   <ul class="post-list">
     {%- for post in site.categories[page.category] -%}
     <li class="post-item">
@@ -21,7 +18,7 @@ layout: default
         <div class="post-categories">
           {%- for category in post.categories -%}
             <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" class="category-tag">
-              {{ category }}
+              {{ category | capitalize }}
             </a>
           {%- endfor -%}
         </div>
