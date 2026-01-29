@@ -3,6 +3,7 @@ layout: post
 title: "Building SafePulse"
 date: 2026-01-28
 categories: [technology, coding]
+excerpt: "A mobile safety app focused on alerts, trusted contacts, and secure communication."
 ---
 
 ## Introduction
