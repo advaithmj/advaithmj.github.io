@@ -89,24 +89,6 @@
   color: #2a7ae2 !important;
 }
 
-/* Special styling for Projects button */
-.site-nav a[href*="projects"] {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white !important;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
-}
-
-.site-nav a[href*="projects"]:hover {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.5);
-  transform: translateY(-3px) scale(1.05);
-}
-
-.site-nav a[href*="projects"]::after {
-  display: none; /* Remove underline for Projects button */
-}
-
 /* Main content fade in */
 .page-content {
   animation: fadeIn 0.8s ease-out;
@@ -296,11 +278,5 @@ html {
     padding: 6px 12px;
     margin: 2px;
     font-size: 0.9em;
-  }
-  
-  .site-nav a[href*="projects"] {
-    width: 100%;
-    text-align: center;
-    margin: 5px 0;
   }
 }
