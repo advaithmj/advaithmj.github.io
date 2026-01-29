@@ -1,20 +1,22 @@
 title: Advaith Menon John
 description: Engineering • Robotics • Data Analysis
+
 author:
   name: Advaith Menon John
-  bio: Student | Developer 
-  location: Lafayette, California
-  
+
 url: "https://advaithmj.github.io"
 baseurl: ""
 
 # Theme
 theme: minima
+
 # Navigation
 header_pages:
   - projects.md
   - blog.md
   - about.md
 
-# Social links (add the ones you use)
-github_username: advaithmj
+# Social links
+minima:
+  social_links:
+    github: advaithmj
