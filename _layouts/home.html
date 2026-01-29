@@ -17,14 +17,12 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         
         {%- if post.categories.size > 0 -%}
-            <div class="post-categories">
-              {%- for category in post.categories -%}
-                <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" class="category-tag">
-                  {{ category | capitalize }}
-                </a>
-              {%- endfor -%}
-            </div>
-          {%- endif -%}
+          <div class="post-categories">
+            {%- for category in post.categories -%}
+              <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" class="category-tag">
+                {{ category | capitalize }}
+              </a>
+            {%- endfor -%}
           </div>
         {%- endif -%}
         
