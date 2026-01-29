@@ -1,0 +1,19 @@
+/* FORCE REMOVE PURPLE BACKGROUND FROM PROJECTS */
+.site-nav .page-link,
+.site-nav a,
+.site-nav a[href*="projects"],
+.site-nav a[href*="Projects"],
+a[href="/projects/"],
+a[href*="projects"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.site-nav a[href*="projects"]:hover,
+.site-nav a[href="/projects/"]:hover {
+  background: rgba(42, 122, 226, 0.05) !important;
+  background-color: rgba(42, 122, 226, 0.05) !important;
+  background-image: none !important;
+}
