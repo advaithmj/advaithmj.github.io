@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <h1 class="page-heading">Category: {{ page.category }}</h1>
+  
+  <p class="category-description">
+    Showing all posts in <strong>{{ page.category }}</strong>
+  </p>
+  
+  <a href="{{ site.baseurl }}/" class="back-link">← Back to all posts</a>
+
+  <ul class="post-list">
+    {%- for post in site.categories[page.category] -%}
+    <li class="post-item">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      
+      {%- if post.categories.size > 0 -%}
+        <div class="post-categories">
+          {%- for category in post.categories -%}
+            <a href="{{ site.baseurl }}/categories/{{ category | slugify }}" class="category-tag">
+              {{ category }}
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      
+      {%- if post.excerpt -%}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {%- endif -%}
+      
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
