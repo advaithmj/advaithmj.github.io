@@ -1,1 +1,210 @@
+/* Smooth transitions for all elements */
+* {
+  transition: all 0.3s ease;
+}
 
+/* Header animations */
+.site-header {
+  animation: slideDown 0.6s ease-out;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.site-header:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Site title animation */
+.site-title {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.site-title:hover {
+  color: #2a7ae2 !important;
+  transform: scale(1.05);
+}
+
+/* Navigation links */
+.site-nav .page-link {
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.site-nav .page-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2a7ae2;
+  transition: width 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+  transform: translateY(-2px);
+  color: #2a7ae2 !important;
+}
+
+.site-nav .page-link:hover::after {
+  width: 100%;
+}
+
+/* Main content fade in */
+.page-content {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Post list items */
+.post-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.post-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  animation: slideUp 0.6s ease-out backwards;
+}
+
+.post-item:nth-child(1) { animation-delay: 0.1s; }
+.post-item:nth-child(2) { animation-delay: 0.2s; }
+.post-item:nth-child(3) { animation-delay: 0.3s; }
+.post-item:nth-child(4) { animation-delay: 0.4s; }
+.post-item:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.post-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  background-color: #f8f9fa;
+}
+
+/* Post links */
+.post-link {
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.post-link:hover {
+  color: #2a7ae2 !important;
+  text-decoration: none;
+}
+
+/* Post meta */
+.post-meta {
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.post-item:hover .post-meta {
+  color: #2a7ae2;
+}
+
+/* Footer animation */
+.site-footer {
+  animation: fadeIn 1s ease-out 0.5s backwards;
+  transition: background-color 0.3s ease;
+}
+
+.site-footer:hover {
+  background-color: #f5f5f5;
+}
+
+/* Social links */
+.social-media-list a {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.social-media-list a:hover {
+  transform: scale(1.2) rotate(5deg);
+  color: #2a7ae2 !important;
+}
+
+/* Page content animations */
+.page-heading {
+  animation: fadeInDown 0.6s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button/Link hover effects */
+a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add pulse animation for important elements */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Wrapper animation */
+.wrapper {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Home page specific */
+.home {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Description text */
+.site-description {
+  animation: fadeIn 1s ease-out 0.3s backwards;
+}
