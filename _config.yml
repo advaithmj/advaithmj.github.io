@@ -9,8 +9,7 @@ url: "https://advaithmj.github.io"
 baseurl: ""
 
 # Theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
+theme: minima
 # Navigation
 header_pages:
   - projects.md
