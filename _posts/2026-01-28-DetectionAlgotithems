@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Working on Detection Algorithms"
+date: 2026-01-28
+categories: [technology, algorithms]
+---
+
+## Introduction
+
+This is my first blog post about algorithms. While creating my site and thinking about what to share, I realized that many of my most important projects are not visible at first glance.
+
+That motivated me to document the detection algorithms I have been developing.
+
+## What I Built
+
+I worked on detection algorithms focused on filtering noise and identifying meaningful signals in imperfect data.
+
+This includes:
+- Simulated sensor data with noise
+- Signal filtering techniques
+- Logic to reduce false positives
+- Early-stage models for detection reliability
+
+These algorithms are closely tied to my other projects, especially those involving sensors, autonomy, and real-world uncertainty.
+
+## Conclusion
+
+Writing this blog made me realize that algorithms deserve the same level of explanation as hardware or apps. Documenting the reasoning behind them helped connect this work to my broader projects and clarified how these systems can be improved over time.
