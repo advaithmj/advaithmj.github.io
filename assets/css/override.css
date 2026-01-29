@@ -1,4 +1,4 @@
-/* FORCE REMOVE PURPLE BACKGROUND FROM PROJECTS */
+/* FORCE REMOVE PURPLE BACKGROUND FROM PROJECTS - EVERYWHERE */
 .site-nav .page-link,
 .site-nav a,
 .site-nav a[href*="projects"],
@@ -9,6 +9,7 @@ a[href*="projects"] {
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+  color: #424242 !important; /* Force dark text color */
 }
 
 .site-nav a[href*="projects"]:hover,
@@ -16,4 +17,13 @@ a[href*="projects"] {
   background: rgba(42, 122, 226, 0.05) !important;
   background-color: rgba(42, 122, 226, 0.05) !important;
   background-image: none !important;
+  color: #2a7ae2 !important; /* Blue on hover */
+}
+
+/* Make sure active/current page also has proper colors */
+.site-nav .page-link.current,
+.site-nav a.current,
+.site-nav a[href*="projects"].current {
+  color: #2a7ae2 !important;
+  background: rgba(42, 122, 226, 0.1) !important;
 }
