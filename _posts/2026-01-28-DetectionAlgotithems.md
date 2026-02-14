@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Found a Critical Flaw in How We Detect Exoplanets"
+title: "Critical Flaw in How We Detect Exoplanets"
 date: 2026-01-28
 categories: [technology, algorithms, space, research]
 ---
