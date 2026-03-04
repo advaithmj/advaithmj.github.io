@@ -10,6 +10,8 @@ This is my first blog post focused on hardware. While working on my website, I r
 
 That realization pushed me to document my reseeding drone project.
 
+GitHub: https://github.com/advaithmj/Reseeding-Drone
+
 ## What I Built
 
 I designed a **450 mm autonomous reseeding drone** using a Pixhawk flight controller and GPS-based navigation.
