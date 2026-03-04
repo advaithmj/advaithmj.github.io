@@ -5,7 +5,7 @@ date: 2026-01-28
 categories: [project, technology, algorithms, space, research]
 ---
 
-## When Everyone Agrees, But Everyone Is Wrong
+When Everyone Agrees, But Everyone Is Wrong
 
 What if I told you that NASA's most trusted method for confirming exoplanets—getting multiple independent detectors to agree—might be fundamentally broken?
 
