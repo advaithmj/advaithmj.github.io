@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Projects
+title: "Projects"
 permalink: /projects/
 ---
 
-# My Projects
+# Projects
 
-## Project 1
-Description of your first project.
+{% for post in site.posts %}
+  {% if post.categories contains "project" %}
+  
+## [{{ post.title }}]({{ post.url }})
 
-## Project 2
-Description of your second project.
+{{ post.excerpt }}
 
-## Project 3
-Description of your third project.
+  {% endif %}
+{% endfor %}
