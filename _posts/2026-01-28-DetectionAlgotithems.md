@@ -2,7 +2,7 @@
 layout: post
 title: "Critical Flaw in How We Detect Exoplanets"
 date: 2026-01-28
-categories: [technology, algorithms, space, research]
+categories: [project, technology, algorithms, space, research]
 ---
 
 ## When Everyone Agrees, But Everyone Is Wrong
