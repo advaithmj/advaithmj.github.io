@@ -14,7 +14,7 @@ GitHub: https://github.com/advaithmj/Reseeding-Drone
 
 ## What I Built
 
-I designed a **450 mm autonomous reseeding drone** using a Pixhawk flight controller and GPS-based navigation.
+I designed a **450 mm autonomous reseeding drone** using a Pixhawk flight controller and GPS-based navigation
 
 The project includes:
 - A 450 mm quadcopter frame
