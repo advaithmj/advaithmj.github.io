@@ -51,7 +51,7 @@ Then I systematically tested 20 different stress levels, from perfectly clean to
 
 ## The Results Are Alarming
 
-![Signal Visualization](outputs/signal_visualization.png)
+**Signal Visualization**
 *Top to bottom: Clean signal, with stellar noise, with environmental stress. Notice how corruption makes the signal unrecognizable.*
 
 ### Finding #1: Perfect Agreement on the Wrong Answer
@@ -76,7 +76,7 @@ This is the nightmare scenario. It looks like a confirmed detection. It would pa
 
 But the planet isn't where they think it is.
 
-![Comprehensive Results](outputs/false_consensus_comprehensive.png)
+**Comprehensive Results**
 *Four-panel analysis: Detection rate stays 100%, but error spikes at moderate stress. Notice the U-shaped error curve—peak danger isn't at extreme stress, it's at moderate levels.*
 
 ### Finding #2: The Danger Zone Isn't Where You Think
@@ -105,7 +105,7 @@ Higher power means higher confidence. Scientists trust high-power detections. Bu
 
 **You can be very confident and very wrong.**
 
-![False Consensus Zone](outputs/false_consensus_zone.png)
+**False Consensus Zone**
 *The false consensus zone: Top panel shows perfect agreement (blue line) coinciding with high error (red line). Bottom panel shows the composite danger score peaking at stress 0.2.*
 
 ### Finding #4: 100% Detection Rate Throughout
@@ -221,38 +221,11 @@ The false consensus problem applies to any multi-sensor system:
 
 ---
 
-## Where I'm Taking This Next
-
-This project started as curiosity. Now it's a mission.
-
-Here's my roadmap:
-
-### **Phase 1: Validation (In Progress)**
-- ✅ Built complete simulation framework
-- ✅ Demonstrated false consensus exists
-- ✅ Identified danger zones and mechanisms
-- ⬜ Test on real Kepler data to verify predictions
-- ⬜ Extend to multiple-planet scenarios
-
-### **Phase 2: Publication (Starting Now)**
-- ⬜ Submit paper to ArXiv (astro-ph.IM)
-- ⬜ Contact NASA Ames Exoplanet Science Institute
-- ⬜ Contact TESS Science Team at MIT
-- ⬜ Present findings to researchers
-
-### **Phase 3: Impact (Long-term)**
-- ⬜ Make code open-source for mission planners to use
-- ⬜ Build interactive tool for testing mission designs
-- ⬜ Work with spacecraft engineers on mitigation strategies
-- ⬜ Help update exoplanet validation protocols
-
----
-
 ## The Code Is Open
 
 I'm making all of this public. You can:
 
-- **Download the code**: [GitHub repo link]
+- **Download the code**: https://github.com/advaithmj/False-Exoplanet-Detection
 - **Run the simulations yourself**: Full instructions included
 - **Test your own scenarios**: Adjust planet parameters, stress levels, detection algorithms
 - **Cite this work**: Permanent DOI available
@@ -264,7 +237,7 @@ This is too important to keep locked up in a school project. The scientific comm
 
 ## Why I'm Sharing This
 
-I'm 17. I'm not a professional astronomer. I don't have a PhD.
+ I'm not a professional astronomer. I don't have a PhD.
 
 But I found something real.
 
