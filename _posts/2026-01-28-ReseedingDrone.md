@@ -2,7 +2,7 @@
 layout: post
 title: "Designing an Autonomous Re-Seeding Drone"
 date: 2026-01-28
-categories: [technology, robotics]
+categories: [projects, technology, robotics]
 ---
 
 
