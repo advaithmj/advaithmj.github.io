@@ -5,7 +5,6 @@ date: 2026-01-28
 categories: [technology, robotics]
 ---
 
-## Introduction
 
 This is my first blog post focused on hardware. While working on my website, I realized that some of my most interesting projects were physical systems that deserved proper explanation.
 
