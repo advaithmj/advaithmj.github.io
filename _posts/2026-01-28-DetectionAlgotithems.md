@@ -231,7 +231,7 @@ I'm making all of this public. You can:
 - **Cite this work**: Permanent DOI available
 - **Contribute improvements**: Pull requests welcome
 
-This is too important to keep locked up in a school project. The scientific community needs to see this.
+This is too important to keep locked up in a boring project in school. The scientific community needs to see this.
 
 ---
 
