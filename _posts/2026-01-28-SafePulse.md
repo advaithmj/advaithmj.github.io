@@ -12,6 +12,8 @@ This is my first blog post. I wanted to document how building my website pushed 
 
 While setting up my blog, I realized I needed a real project to write about, not just experiments or small demos.
 
+GitHub: https://github.com/advaithmj/SafePulse
+
 ## What I Built
 
 I built **SafePulse**, a mobile application focused on safety, health monitoring, and trusted communication.
@@ -27,5 +29,3 @@ Working on the website made it clear that if I wanted my work to be understandab
 ## Conclusion
 
 Creating this blog directly inspired me to clean up, document, and publish the SafePulse project. Writing about my work forced me to think more carefully about design decisions and long-term goals instead of just making things work.
-
-GitHub: https://github.com/advaithmj/SafePulse
