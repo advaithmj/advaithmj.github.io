@@ -28,4 +28,5 @@ Working on the website made it clear that if I wanted my work to be understandab
 
 ## Conclusion
 
-Creating this blog directly inspired me to clean up, document, and publish the SafePulse project. Writing about my work forced me to think more carefully about design decisions and long-term goals instead of just making things work.
+Creating this blog directly inspired me to clean up, document, and publish the SafePulse project.. Writing about my work forced me to think more carefully about design decisions and long-term goals instead of just making things work.
+
