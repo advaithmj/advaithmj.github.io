@@ -330,4 +330,8 @@ I'm looking for:
 - Mentorship from exoplanet scientists
 - Collaboration opportunities
 
+
+Check out my full research paper:
+https://docs.google.com/document/d/1hy9v8_LadEMlZ2T_PxcsmGIhGHYbpyKcHZCiOhi9bHo/edit?usp=sharing
+
 **This is bigger than one project. This is about making space science more reliable.**
