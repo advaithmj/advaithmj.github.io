@@ -6,12 +6,6 @@ categories: [project, technology, coding]
 excerpt: "A start into agentic AI"
 ---
 
-
-# Nava Intelligence
-### Autonomous Aerospace Simulation Agent
-
-Give it a rocket spec. It simulates the flight, builds the 3D model, and writes the report — by itself.
-
 ## Demo
 
 Input:
