@@ -24,6 +24,9 @@ The project includes:
 
 The goal of the drone is environmental restoration, specifically reaching areas where manual reseeding would be slow, unsafe, or inefficient.
 
+![DroneFinal]({{"/assets/img/drone_final.png" | relative_url }})
+
+
 ## Conclusion
 
 Building the blog inspired me to treat this drone as more than a prototype. Writing about it helped clarify its purpose, technical scope, and future improvements, turning it into a documented engineering project rather than just a build.
